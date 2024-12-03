@@ -1,0 +1,7 @@
+- [ ] Add footrprints and 3d models
+	- [ ] Choc keyswitches
+	- [ ] Diodes
+	- [ ] NRF microcontroller
+- [ ] Battery
+- [ ] 3d case
+- [ ] Carry vase
