@@ -920,6 +920,12 @@
 		(uuid "236b3ccf-a555-4d60-8c83-662c9f43d93c")
 	)
 	(junction
+		(at 121.285 122.555)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f3cfa5d-a769-43cd-b96b-b032ad8cc600")
+	)
+	(junction
 		(at 116.205 34.925)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -954,12 +960,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4384e502-5ca5-4367-8602-aea5bef00f40")
-	)
-	(junction
-		(at 116.205 90.805)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47f80b90-b5b5-43e8-95c6-1be966a0c09d")
 	)
 	(junction
 		(at 161.925 71.755)
@@ -1010,6 +1010,12 @@
 		(uuid "6a1cdd11-63e5-43f0-a650-03eff5eaab52")
 	)
 	(junction
+		(at 116.205 90.805)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "721b3b67-7756-4e47-a2dc-e050dfee031e")
+	)
+	(junction
 		(at 101.6 34.925)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1044,12 +1050,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "903e7451-6a3b-4827-99fc-1a2c691b71ba")
-	)
-	(junction
-		(at 121.285 122.555)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91b8b061-af0e-481d-8414-b1581ee5a114")
 	)
 	(junction
 		(at 116.205 71.755)
@@ -1303,16 +1303,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 122.555) (xy 121.285 122.555)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4607cb84-4b20-4f4f-89d0-91ab6cb9fd32")
-	)
-	(wire
-		(pts
 			(xy 136.525 103.505) (xy 151.765 103.505)
 		)
 		(stroke
@@ -1323,7 +1313,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.285 122.555) (xy 136.525 122.555)
+			(xy 91.44 122.555) (xy 121.285 122.555)
 		)
 		(stroke
 			(width 0)
@@ -1523,6 +1513,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.205 90.805) (xy 116.205 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c8d62b-bc6e-47e9-b539-231c72c69066")
+	)
+	(wire
+		(pts
+			(xy 121.285 122.555) (xy 136.525 122.555)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869d9667-b802-40d9-b8be-0edb78e8a390")
+	)
+	(wire
+		(pts
 			(xy 86.36 90.805) (xy 86.36 109.855)
 		)
 		(stroke
@@ -1600,16 +1610,6 @@
 			(type default)
 		)
 		(uuid "a691f8ab-af2c-4ddc-8f00-19f3534f901f")
-	)
-	(wire
-		(pts
-			(xy 116.205 90.805) (xy 116.205 109.855)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad3387a1-1752-4c91-8819-f59a7cf13a59")
 	)
 	(wire
 		(pts
@@ -1841,7 +1841,7 @@
 	)
 	(global_label "R0"
 		(shape input)
-		(at 264.795 140.97 0)
+		(at 244.475 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1851,7 +1851,7 @@
 		)
 		(uuid "589f22c2-e74a-44f5-82c2-24b0dfe81847")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.2597 140.97 0)
+			(at 249.9397 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,7 +2261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 164.465 93.345 0)
 			(effects
 				(font
@@ -2331,7 +2331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 91.44 43.815 0)
 			(effects
 				(font
@@ -2419,7 +2419,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 151.765 80.645 0)
 			(effects
 				(font
@@ -2507,7 +2507,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 151.765 99.695 0)
 			(effects
 				(font
@@ -2593,7 +2593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 133.985 112.395 0)
 			(effects
 				(font
@@ -2663,7 +2663,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 167.005 43.815 0)
 			(effects
 				(font
@@ -2751,7 +2751,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 136.525 99.695 0)
 			(effects
 				(font
@@ -2839,7 +2839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 151.765 43.815 0)
 			(effects
 				(font
@@ -2927,7 +2927,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 106.68 43.815 0)
 			(effects
 				(font
@@ -3015,7 +3015,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 121.285 61.595 0)
 			(effects
 				(font
@@ -3103,7 +3103,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 136.525 118.745 0)
 			(effects
 				(font
@@ -3191,7 +3191,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 121.285 99.695 0)
 			(effects
 				(font
@@ -3279,7 +3279,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 121.285 43.815 0)
 			(effects
 				(font
@@ -3365,7 +3365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 149.225 74.295 0)
 			(effects
 				(font
@@ -3435,7 +3435,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 136.525 43.815 0)
 			(effects
 				(font
@@ -3521,7 +3521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 104.14 93.345 0)
 			(effects
 				(font
@@ -3591,7 +3591,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 91.44 80.645 0)
 			(effects
 				(font
@@ -3652,94 +3652,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 121.285 118.745 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "475766a7-1d2a-49ce-9876-7d4b18182e16")
-		(property "Reference" "D24"
-			(at 124.46 117.4749 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 124.46 120.0149 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
-			(at 121.285 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.285 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 121.285 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 121.285 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 121.285 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5a9e76da-e88a-4191-8dd1-fea468728075")
-		)
-		(pin "1"
-			(uuid "07292c4c-8052-4ea2-a7da-542c45b71a9e")
-		)
-		(instances
-			(project "ElephantV2"
-				(path "/9bbdd61a-7985-4ab6-8f0f-30c4d0820426"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 88.9 93.345 0)
 		(unit 1)
@@ -3765,7 +3677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 88.9 93.345 0)
 			(effects
 				(font
@@ -3835,7 +3747,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 91.44 99.695 0)
 			(effects
 				(font
@@ -3923,7 +3835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 136.525 61.595 0)
 			(effects
 				(font
@@ -4009,7 +3921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 118.745 37.465 0)
 			(effects
 				(font
@@ -4077,7 +3989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 149.225 93.345 0)
 			(effects
 				(font
@@ -4145,7 +4057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 149.225 37.465 0)
 			(effects
 				(font
@@ -4188,6 +4100,74 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 118.745 112.395 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "523ff438-0e9d-4d68-896a-980a66af158d")
+		(property "Reference" "S24"
+			(at 118.745 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 118.745 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+			(at 118.745 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.745 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 118.745 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f3a1692-2506-4731-a689-a73ddb2a5fa6")
+		)
+		(pin "2"
+			(uuid "92c56e02-b160-4896-9dba-609482599aa6")
+		)
+		(instances
+			(project "ElephantV2"
+				(path "/9bbdd61a-7985-4ab6-8f0f-30c4d0820426"
+					(reference "S24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 167.005 118.745 90)
 		(unit 1)
@@ -4215,7 +4195,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 167.005 118.745 0)
 			(effects
 				(font
@@ -4285,7 +4265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d85c11c-bbde-4c74-a249-5e3a99d0b8d3")
-		(property "Reference" "S45"
+		(property "Reference" "S44"
 			(at 149.225 105.41 0)
 			(effects
 				(font
@@ -4301,7 +4281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 149.225 112.395 0)
 			(effects
 				(font
@@ -4337,7 +4317,7 @@
 		(instances
 			(project "ElephantV2"
 				(path "/9bbdd61a-7985-4ab6-8f0f-30c4d0820426"
-					(reference "S45")
+					(reference "S44")
 					(unit 1)
 				)
 			)
@@ -4371,7 +4351,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 151.765 61.595 0)
 			(effects
 				(font
@@ -4459,7 +4439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 167.005 99.695 0)
 			(effects
 				(font
@@ -4545,7 +4525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 88.9 74.295 0)
 			(effects
 				(font
@@ -4615,7 +4595,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 121.285 80.645 0)
 			(effects
 				(font
@@ -4701,7 +4681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 164.465 74.295 0)
 			(effects
 				(font
@@ -4769,7 +4749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 118.745 93.345 0)
 			(effects
 				(font
@@ -4837,7 +4817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 118.745 74.295 0)
 			(effects
 				(font
@@ -4907,7 +4887,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 106.68 61.595 0)
 			(effects
 				(font
@@ -4993,7 +4973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 104.14 37.465 0)
 			(effects
 				(font
@@ -5063,7 +5043,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 106.68 99.695 0)
 			(effects
 				(font
@@ -5151,7 +5131,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 91.44 118.745 0)
 			(effects
 				(font
@@ -5237,7 +5217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 133.985 74.295 0)
 			(effects
 				(font
@@ -5281,74 +5261,6 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 118.745 112.395 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2c3e328-a1dd-4903-8855-d6ad21212647")
-		(property "Reference" "S24"
-			(at 118.745 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keyswitch"
-			(at 118.745 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
-			(at 118.745 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.745 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 118.745 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11011c6d-ddb7-45b7-9b70-14f321260353")
-		)
-		(pin "2"
-			(uuid "82b8b81c-4287-4b75-91fd-48fe4f2a9ed5")
-		)
-		(instances
-			(project "ElephantV2"
-				(path "/9bbdd61a-7985-4ab6-8f0f-30c4d0820426"
-					(reference "S24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 104.14 55.245 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5373,7 +5285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 104.14 55.245 0)
 			(effects
 				(font
@@ -5441,7 +5353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 133.985 37.465 0)
 			(effects
 				(font
@@ -5509,7 +5421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 88.9 37.465 0)
 			(effects
 				(font
@@ -5577,7 +5489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 104.14 74.295 0)
 			(effects
 				(font
@@ -5645,7 +5557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 118.745 55.245 0)
 			(effects
 				(font
@@ -5713,7 +5625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 133.985 93.345 0)
 			(effects
 				(font
@@ -5781,7 +5693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.50u"
 			(at 164.465 112.395 0)
 			(effects
 				(font
@@ -5849,7 +5761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 88.9 112.395 0)
 			(effects
 				(font
@@ -5919,7 +5831,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 136.525 80.645 0)
 			(effects
 				(font
@@ -6007,7 +5919,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 91.44 61.595 0)
 			(effects
 				(font
@@ -6068,6 +5980,94 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 121.285 118.745 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd9c3bf4-da73-477c-b669-4dd7a0f01b33")
+		(property "Reference" "D24"
+			(at 124.46 117.4749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 124.46 120.0149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 121.285 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 121.285 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 121.285 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 121.285 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "358da158-5c60-484f-abcd-1e3d7ff1aa00")
+		)
+		(pin "1"
+			(uuid "8e7392a3-d65e-4d1f-8c7c-e9e1f041dba9")
+		)
+		(instances
+			(project "ElephantV2"
+				(path "/9bbdd61a-7985-4ab6-8f0f-30c4d0820426"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 164.465 37.465 0)
 		(unit 1)
@@ -6093,7 +6093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 164.465 37.465 0)
 			(effects
 				(font
@@ -6161,7 +6161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 88.9 55.245 0)
 			(effects
 				(font
@@ -6231,7 +6231,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 151.765 118.745 0)
 			(effects
 				(font
@@ -6317,7 +6317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Scotto_MCU:Arduino_Pro_Micro"
+		(property "Footprint" "ScottoKeebs_MCU:Arduino_Pro_Micro"
 			(at 229.235 120.65 0)
 			(effects
 				(font
@@ -6462,7 +6462,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 106.68 80.645 0)
 			(effects
 				(font
@@ -6548,7 +6548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 133.985 55.245 0)
 			(effects
 				(font
@@ -6616,7 +6616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 149.225 55.245 0)
 			(effects
 				(font
@@ -6686,7 +6686,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 167.005 61.595 0)
 			(effects
 				(font
@@ -6772,7 +6772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 164.465 55.245 0)
 			(effects
 				(font
@@ -6842,7 +6842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 167.005 80.645 0)
 			(effects
 				(font
