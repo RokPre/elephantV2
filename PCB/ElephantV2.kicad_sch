@@ -2263,7 +2263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 133.985 95.25 0)
 			(effects
 				(font
@@ -2859,7 +2859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 149.225 74.295 0)
 			(effects
 				(font
@@ -3191,7 +3191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 118.745 37.465 0)
 			(effects
 				(font
@@ -3259,7 +3259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 149.225 37.465 0)
 			(effects
 				(font
@@ -3327,7 +3327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 118.745 95.25 0)
 			(effects
 				(font
@@ -3483,7 +3483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 149.225 95.25 0)
 			(effects
 				(font
@@ -3639,7 +3639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 88.9 74.295 0)
 			(effects
 				(font
@@ -3795,7 +3795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 164.465 74.295 0)
 			(effects
 				(font
@@ -3863,7 +3863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 118.745 74.295 0)
 			(effects
 				(font
@@ -4019,7 +4019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 104.14 37.465 0)
 			(effects
 				(font
@@ -4087,7 +4087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 133.985 74.295 0)
 			(effects
 				(font
@@ -4155,7 +4155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 104.14 55.245 0)
 			(effects
 				(font
@@ -4223,7 +4223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 133.985 37.465 0)
 			(effects
 				(font
@@ -4291,7 +4291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 88.9 37.465 0)
 			(effects
 				(font
@@ -4359,7 +4359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 104.14 74.295 0)
 			(effects
 				(font
@@ -4427,7 +4427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 118.745 55.245 0)
 			(effects
 				(font
@@ -4495,7 +4495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 164.465 95.25 0)
 			(effects
 				(font
@@ -4827,7 +4827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 164.465 37.465 0)
 			(effects
 				(font
@@ -4895,7 +4895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 88.9 55.245 0)
 			(effects
 				(font
@@ -5282,7 +5282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 133.985 55.245 0)
 			(effects
 				(font
@@ -5350,7 +5350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 149.225 55.245 0)
 			(effects
 				(font
@@ -5506,7 +5506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u_reversable"
+		(property "Footprint" "Reversable_Rok_Prezelj:Choc_1.00u_reversable"
 			(at 164.465 55.245 0)
 			(effects
 				(font

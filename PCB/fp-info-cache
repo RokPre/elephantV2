@@ -1,4 +1,4 @@
-26586841487180616
+26590315544082329
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94232,6 +94232,20 @@ Resistor, Radial_Power series, Radial, pin pitch=7.37mm, 10W, length*width=16.1*
 Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 0
 2
+2
+Reversable_Rok_Prezelj
+Cherry_MX_1.00u_reversable
+
+
+0
+4
+2
+Reversable_Rok_Prezelj
+Choc_1.00u_reversable
+
+
+0
+4
 2
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
